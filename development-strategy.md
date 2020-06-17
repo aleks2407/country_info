@@ -1,39 +1,36 @@
 # Development Strategy
 
-> `semantic-layout`
+> `travel-road`
 
-A basic web page with semantic layout, developed collaboratively using branches.  It's not very interesting to look at.
+A basic web page with semantic layout, developed collaboratively using branches. It's not very interesting to look at.
 
 ## Wireframe
 
-![wireframe](./wireframe.gif)
+![wireframe](./jswireframe-1-1.png)
 
 ## 0. Set-Up
 
-__As a fellow developer I can see the prepared repository__
-__As a site visitor, I can see an empty site at the correct URL__
-
 ### Repository
 
-1. Created a new repository [generated](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) from [this template](https://github.com/hackyourfuturebelgium/w3-validation-template)
-1. Clone the repository
-1. Copy-paste the markdown from this file to the empty `development-strategy.md` file in the new repo
-1. Add [this wireframe](./wireframe.gif) into your new repo
-1. Start your README file
-1. Push the changes
-1. turn on GitHub Pages
+- Created a new repository [generated](https://github.com/HackYourFutureBelgium/debugging-project-week-1)
+- Clone the repository
+- Copy-paste the markdown from this file to the empty `development-strategy.md` file in the new repo
+- Add [this wireframe](./jswireframe-1-1.png)
+- Start README file
+- Push the changes
+- turn on GitHub Pages
 
 ---
 
 ## 1. title
 
-__As a site visitor, I want to know what the web page is called__
+**As a site visitor, I want to know what the web page is called**
 
-> assigned to __
+> assigned to `Mame` reviewers `Oguz` and `Aleksandra`
 
 ### Repository
 
-1. This user story was developed locally by __ on a brach called `title`.
+1. This user story was developed locally by \_\_ on a brach called `title`.
 1. The new branch was pushed to the shared repository
 1. A pull request was made to `master` & reviewed by the team
 1. Changes were merged to `master`
@@ -48,83 +45,11 @@ __As a site visitor, I want to know what the web page is called__
 - Layout styling for the header & footer
 - Text styling for the main title
 
----
+## JS
 
-## 2.  introduction
+## Finishing Touches
 
-__As a site visitor, I want to read an introduction to this web page__
-
-> assigned to __
-
-### Repository
-
-1. This user story was developed locally by __ on a brach called `introduction`.
-1. The new branch was pushed to the shared repository
-1. A pull request was made to `master` & reviewed by the team
-1. Changes were merged to `master`
-
-### HTML
-
-- section element
-- some nice text in the section introducing users to this web page
-
-### CSS
-
-Styling for the new element
-
----
-
-## 3. main text
-
-__As a site visitor, I want to learn about something cool__
-
-> assigned to __
-
-### Repository
-
-1. This user story was developed locally by __ on a brach called `main-text`.
-1. The new branch was pushed to the shared repository
-1. A pull request was made to `master` & reviewed by the team
-1. Changes were merged to `master`
-
-### HTML
-
-- article element
-- something cool that everyone needs to know
-
-### CSS
-
-Styling for the new element
-
----
-
-## 4. references
-
-__As a site visitor, I want to know where I can learn more__
-
-> assigned to __
-
-### Repository
-
-1. This user story was developed locally by __ on a brach called `references`.
-1. The new branch was pushed to the shared repository
-1. A pull request was made to `master` & reviewed by the team
-1. Changes were merged to `master`
-
-### HTML
-
-- aside element
-- some links for people to learn more about the cool thing
-
-### CSS
-
-Styling for the new element
-
----
-
-## 5. Finishing Touches
-
-__As a perfectionist, I want everything perfect :)__
+**As a perfectionist, I want everything perfect :)**
 
 - Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)

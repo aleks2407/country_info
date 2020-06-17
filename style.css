@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Main skeleton */
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+header {
+	background-color: blue;
+	height: 100px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+header h1 {
+	color: #ffffff;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article {
+	margin-bottom: 10px;
+	background-color: aqua;
+	width: 50%;
+	height: 150px;
+}
+/*it will change the things I have made it just for starting point*/
+/*your class en id can be related your article number then we will have zero conflict :)*/

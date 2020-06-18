@@ -3,7 +3,9 @@
 console.log('-- loading: confirmEnding');
 
 
-function confirmEnding() { }
+function confirmEnding(arg1, arg2) {
+  return arg1.endsWith(arg2);
+}
 
 
 {
@@ -62,14 +64,21 @@ function confirmEnding() { }
 
 
 function confirmEndingHandler() {
-  debugger;
-
   // read user input
+  const arg1 = document.getElementById('arg1').value;
+  const arg2 = document.getElementById('arg2').value;
 
+  debugger;
   // core logic
-  const result = confirmEnding(str, ending);
+  const result = confirmEnding(arg1, arg2);
 
   // display for use
+  document.getElementById('result').innerHTML = result;
 
   // log for developers
+  console.log('Is "' + arg1 + '" ending with "' + arg2 + '" : ' + result);
+}
+
+function clearResultHandler() {
+  document.getElementById('result').innerHTML = '';
 }

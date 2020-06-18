@@ -47,6 +47,35 @@ A basic web page with semantic layout, developed collaboratively using branches.
 
 ## JS
 
+## 2. First article
+
+**As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
+
+> assigned to `Aleksandra`, reviewers `Oguz` and `Mamé`
+
+### Repository
+
+1. This user story was developed locally on a brach called `confirm-ending`.
+2. The new branch was pushed to the shared repository
+3. A pull request was made to `master` & reviewed by the team
+4. Changes were merged to `master`
+
+### HTML
+
+- article1 element that includes:
+   - header with the name of the city
+   - instruction paragraph
+   - two inputs for the arguments of the function
+   - button to execute the function
+   - paragraph with the result of the function
+
+### CSS
+
+- Style of the article1
+
+## JS
+- function endsWith with arguments linked to HTML input
+ 
 ## Finishing Touches
 
 **As a perfectionist, I want everything perfect :)**

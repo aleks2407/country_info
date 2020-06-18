@@ -34,6 +34,61 @@ article {
 /*it will change the things I have made it just for starting point*/
 /*your class en id can be related your article number then we will have zero conflict :)*/
 
+/* Article 3 */
+
+article.article3 {
+	background-image: url(./img/istanbul.jpg);
+	background-size:cover;
+	padding: 20px;
+	height: 500px;
+}
+article.article3 h2 {
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 2em;
+}
+article.article3 p {
+	text-align: center;
+	margin-top: 20px;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+div.temperature {
+	margin-top: 80px;
+}
+.form-temp {
+	display: flex;
+	justify-content: space-evenly;
+}
+.form-temp input {
+	border-style: none;
+	opacity: 0.7;
+	width: 300px;
+	height: 30px;
+}
+.form-temp input:hover {
+	background-color: lightgreen;
+}
+.article3 .div_button {
+	text-align: center;
+}
+.button-temp {
+	border-style: none;
+	opacity: 0.7;
+	margin-top: 20px;
+	font-weight: 800;
+	font-family: monospace;
+	border-radius: 20px;
+	width: 150px;
+	height: 30px;
+}
+.button-temp:hover {
+	background-color: cadetblue;
+	color: white;
+}
 /*ARTICLE 5 and Article 6*/
 .article5 {
 	background-image: url('./img/mame/brown-kangaroo-near-tree-3567163.jpg');

@@ -33,3 +33,49 @@ article {
 }
 /*it will change the things I have made it just for starting point*/
 /*your class en id can be related your article number then we will have zero conflict :)*/
+
+article.article3 {
+	background-image: url(/istanbul.jpg);
+	background-size:cover;
+	padding: 20px;
+	height: 400px;
+}
+article.article3 h2 {
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 2em;
+}
+article.article3 p {
+	text-align: center;
+	margin-top: 20px;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+div.temperature {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.form-temp .input-temp {
+	border-style: none;
+	width: 200px;
+	height: 30px;
+}
+.form-temp .input-temp:hover {
+	background-color: lightgreen;
+}
+.form-temp .button-temp {
+	border-style: none;
+	font-weight: 800;
+	font-family: monospace;
+	border-radius: 20px;
+	width: 50px;
+	height: 30px;
+}
+.form-temp .button-temp:hover {
+	background-color: cadetblue;
+	color: white;
+}

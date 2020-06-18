@@ -3,10 +3,11 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheit() { }
-
-
-{
+function convertToFahrenheit(c) { 
+  const fahrenheit = c*(1.8) + 32;
+  return fahrenheit;
+} 	
+ {
   console.log('-- testing: convertToFahrenheit ');
   debugger;
 
@@ -46,11 +47,16 @@ function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
+  const input_cels = prompt("How many degrees is the weather today?");
+  const celsius = Number(input_cels);
+  const input_guess = prompt("Your guess :");
+  const guess = Number(input_guess) 
 
   // core logic
-  const result = convertToFahrenheit(c);
+  const result = guess === convertToFahrenheit(celsius);
 
   // display for use
+  alert(result);
 
   // log for developers
 }

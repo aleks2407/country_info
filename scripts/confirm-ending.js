@@ -8,7 +8,7 @@ function confirmEnding(arg1, arg2) {
 }
 
 
-{
+
   console.log('-- testing: confirmEnding ');
   debugger;
 
@@ -60,7 +60,7 @@ function confirmEnding(arg1, arg2) {
   const _8_actual = confirmEnding(_8_arg_1, _8_arg_2);
   console.assert(_8_actual === _8_expect, 'Test 8');
 
-}
+
 
 
 function confirmEndingHandler() {
@@ -77,6 +77,9 @@ function confirmEndingHandler() {
 
   // log for developers
   console.log('Is "' + arg1 + '" ending with "' + arg2 + '" : ' + result);
+  console.log('User first input: ', arg1, `\n type: ${typeof arg1}`);
+	console.log('User second input: ', arg2, `\n type: ${typeof arg2}`);
+	console.log('Result for user: ', result, `\n type: ${typeof result}`);
 }
 
 function clearResultHandler() {

@@ -2,7 +2,7 @@
 
 > `travel-road`
 
-A basic web page with semantic layout, developed collaboratively using branches. It's not very interesting to look at.
+A basic web page aim to learn js, debugging and developed collaboratively using branches. It's not very interesting to look at.
 
 ## Wireframe
 
@@ -22,30 +22,35 @@ A basic web page with semantic layout, developed collaboratively using branches.
 
 ---
 
-## 1. title
+## 1. Reverse&Repeat String
 
-**As a site visitor, I want to know what the web page is called**
+**As a site visitor, I want to see the result of my inputs repeating and reversing**
 
-> assigned to `Mame` reviewers `Oguz` and `Aleksandra`
+> assigned to `Mame`  
+> reviewers `Oguz` and `Aleksandra`
 
-### Repository
+## Repo
 
-1. This user story was developed locally by \_\_ on a brach called `title`.
-1. The new branch was pushed to the shared repository
-1. A pull request was made to `master` & reviewed by the team
-1. Changes were merged to `master`
+This user story was developed on a branch called `repeat_reverse_string`
 
 ### HTML
 
-- A header element with a title describing the web page
-- A pleasant footer
+- Add h2 tags to give a title to the articles
+- Add Onlick events to make element dynamics
+- Add button tags
 
 ### CSS
 
-- Layout styling for the header & footer
-- Text styling for the main title
+- style article article5&6
+- Add img as background
+- Add font family
+- Align items to center used flexbox
 
 ## JS
+
+- wrote logic for main functions to repeat and reverse strings
+- check result of the prompt function then convert to number
+- Show result of input to developers via console log
 
 ## Finishing Touches
 

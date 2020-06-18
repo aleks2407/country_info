@@ -2,7 +2,7 @@
 
 > `travel-road`
 
-A basic web page with semantic layout, developed collaboratively using branches. It's not very interesting to look at.
+A basic web page aim to learn js, debugging and developed collaboratively using branches. It's not very interesting to look at.
 
 ## Wireframe
 
@@ -22,32 +22,69 @@ A basic web page with semantic layout, developed collaboratively using branches.
 
 ---
 
-## 1. title
+## 1. Reverse&Repeat String
 
-**As a site visitor, I want to know what the web page is called**
+**As a site visitor, I want to see the result of my inputs repeating and reversing**
 
-> assigned to `Mame` reviewers `Oguz` and `Aleksandra`
+> assigned to `Mame`  
+> reviewers `Oguz` and `Aleksandra`
 
-### Repository
+## Repo
 
-1. This user story was developed locally by \_\_ on a brach called `title`.
-1. The new branch was pushed to the shared repository
-1. A pull request was made to `master` & reviewed by the team
-1. Changes were merged to `master`
+This user story was developed on a branch called `repeat_reverse_string`
 
 ### HTML
 
-- A header element with a title describing the web page
-- A pleasant footer
+- Add h2 tags to give a title to the articles
+- Add Onlick events to make element dynamics
+- Add button tags
 
 ### CSS
 
-- Layout styling for the header & footer
-- Text styling for the main title
+- style article article5&6
+- Add img as background
+- Add font family
+- Align items to center used flexbox
 
 ## JS
 
-## 2. First article
+- wrote logic for main functions to repeat and reverse strings
+- check result of the prompt function then convert to number
+- Show result of input to developers via console log
+
+## 2. Convert to Fahrenheit
+
+**As a site visitor, I want to see the result of comparing of my inputs of celsius and my guess of fahrenheit**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `convert_to_fahrenheit`
+
+### HTML
+
+- Added `h2` tags to give a title to the articles
+- Added `p` tag to explain the game or instructions
+- Added `form` tag and `input` tag to take user input
+- Added `button` tag to compare user input and guess
+- With `button` tag user can see the result of his/her guess
+
+### CSS
+
+- Added style features inside the `article` tag with class `article3`
+- Added background image to `article` tag with `background-image: url();`
+- Added `font` features to `h2`, `p` and `button` tag
+- Used `margin`, `display:flex;` and `justify-content: space-evenly;` for nice view
+
+## JS
+- Wrote logic for main functions to convert celsius to fahrenheit
+- Used `document.getElementById('').value` for take value of user input
+- Used `alert` methode to show boolean value of result
+
+
+## 3. First article
 
 **As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
 

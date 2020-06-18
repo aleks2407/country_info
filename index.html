@@ -10,6 +10,8 @@
 		<!-- Leave this here!  It renders the review buttons  -->
 		<script src="./review-buttons/init.js"></script>
 		<link rel="stylesheet" href="style.css" />
+		<!--font-family-->
+		<link href="//fonts.googleapis.com/css?family=Bungee Shade&subset=latin" rel="stylesheet" type="text/css" />
 	</head>
 
 	<body>
@@ -32,27 +34,33 @@
 				</p>
 				<div class="temperature">
 					<form class="form-temp" action="">
-						<input class="input-temp" type="text" placeholder="Enter the degree of celcius">
-						<button class="button-temp" onclick="convertToFahrenheitHandler()">Enter</button>
+						<input id="input-temp1" type="text" oninput="x()" placeholder="Enter the degree of celcius">
+						<input id="input-temp2" type="text" oninput="y()" placeholder="Enter your guess">
 					</form>
-					<form class="form-temp" action="">
-						<input class="input-temp" type="text" placeholder="Enter your guess">
-						<button class="button-temp" onclick="convertToFahrenheitHandler()">Enter</button>
-					</form>
+				</div>
+				<div class="div_button">
+					<button class="button-temp" onclick="convertToFahrenheitHandler()">Enter</button>
 				</div>
 			</article>
 			<article class="article4"></article>
 			<!--the rest Mamé-->
-			<article class="article5"></article>
-			<article class="article6"></article>
+			<article class="article5">
+				<h2>Australia</h2>
+
+				<button type="button" onclick="repeatStringNumTimesHandler()">Click and See More?</button>
+			</article>
+			<article class="article6">
+				<h2>sri lanka</h2>
+
+				<button type="button" onclick="reverseStringHandler()">Do you want to Back?</button>
+			</article>
 		</section>
 
-		<!-- js files-->
-		<script src="scripts/confirm-ending.js"></script>
-		<script src="scripts/convert-to-celsius.js"></script>
+		<!--<script src="scripts/confirm-ending.js"></script>
+		<script src="scripts/convert-to-celsius.js"></script> -->
 		<script src="scripts/convert-to-fahrenheit.js"></script>
-		<script src="scripts/find-longest-word-length.js"></script>
+		<!--<script src="scripts/find-longest-word-length.js"></script>
 		<script src="scripts/repeat-string-num-times.js"></script>
-		<script src="scripts/reverse-a-string.js"></script>
+		<script src="scripts/reverse-a-string.js"></script> -->
 	</body>
 </html>

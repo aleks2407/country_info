@@ -42,15 +42,14 @@ function convertToFahrenheit(c) {
   console.assert(_6_actual === _6_expect, 'Test 6');
 }
 
-
 function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
-  const input_cels = prompt("How many degrees is the weather today?");
+  const input_cels = document.getElementById('input-temp1').value;
   const celsius = Number(input_cels);
-  const input_guess = prompt("Your guess :");
-  const guess = Number(input_guess) 
+  const input_guess = document.getElementById('input-temp2').value;
+  const guess = Number(input_guess);
 
   // core logic
   const result = guess === convertToFahrenheit(celsius);
@@ -59,4 +58,9 @@ function convertToFahrenheitHandler() {
   alert(result);
 
   // log for developers
+  console.log('Input of celsius : ', input_cels, '\n ', `type : ${typeof input_cels}`);
+  console.log('Celsius number value: ', celsius, '\n ', `type : ${typeof celsius}`);
+  console.log('Input of guess: ', input_guess, '\n ', `type : ${typeof input_guess}`);
+  console.log('GHuess number value: ', guess, '\n ', `type : ${typeof guess}`);
+  console.log('Result of your guess: ', result, '\n ', `type : ${typeof result}`);
 }

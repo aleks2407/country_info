@@ -52,6 +52,67 @@ This user story was developed on a branch called `repeat_reverse_string`
 - check result of the prompt function then convert to number
 - Show result of input to developers via console log
 
+## 2. Convert to Fahrenheit
+
+**As a site visitor, I want to see the result of comparing of my inputs of celsius and my guess of fahrenheit**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `convert_to_fahrenheit`
+
+### HTML
+
+- Added `h2` tags to give a title to the articles
+- Added `p` tag to explain the game or instructions
+- Added `form` tag and `input` tag to take user input
+- Added `button` tag to compare user input and guess
+- With `button` tag user can see the result of his/her guess
+
+### CSS
+
+- Added style features inside the `article` tag with class `article3`
+- Added background image to `article` tag with `background-image: url();`
+- Added `font` features to `h2`, `p` and `button` tag
+- Used `margin`, `display:flex;` and `justify-content: space-evenly;` for nice view
+
+## JS
+- Wrote logic for main functions to convert celsius to fahrenheit
+- Used `document.getElementById('').value` for take value of user input
+- Used `alert` methode to show boolean value of result
+
+
+## 3. First article
+
+**As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
+
+> assigned to `Aleksandra`, reviewers `Oguz` and `Mamé`
+
+### Repository
+
+1. This user story was developed locally on a brach called `confirm-ending`.
+2. The new branch was pushed to the shared repository
+3. A pull request was made to `master` & reviewed by the team
+4. Changes were merged to `master`
+
+### HTML
+
+- article1 element that includes:
+   - header with the name of the city
+   - instruction paragraph
+   - two inputs for the arguments of the function
+   - button to execute the function
+   - paragraph with the result of the function
+
+### CSS
+
+- Style of the article1
+
+## JS
+- function endsWith with arguments linked to HTML input
+
 ## 4. Find the longest word
 
 **As a site visitor, I want to see the result of my prediction about the longest word in my sentence**
@@ -83,7 +144,7 @@ This user story was developed on a branch called `longest_word`
 - Wrote logic for main functions to convert celsius to fahrenheit
 - Used `document.getElementById('').value` for take value of user input
 - Used `alert` method to show boolean value of result
-
+ 
 ## Finishing Touches
 
 **As a perfectionist, I want everything perfect :)**

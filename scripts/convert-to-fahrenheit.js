@@ -3,10 +3,11 @@
 console.log('-- loading: convertToFahrenheit');
 
 
-function convertToFahrenheit() { }
-
-
-{
+function convertToFahrenheit(c) { 
+  const fahrenheit = c*(1.8) + 32;
+  return fahrenheit;
+} 	
+ {
   console.log('-- testing: convertToFahrenheit ');
   debugger;
 
@@ -41,16 +42,25 @@ function convertToFahrenheit() { }
   console.assert(_6_actual === _6_expect, 'Test 6');
 }
 
-
 function convertToFahrenheitHandler() {
   debugger;
 
   // read user input
+  const input_cels = document.getElementById('input-temp1').value;
+  const celsius = Number(input_cels);
+  const input_guess = document.getElementById('input-temp2').value;
+  const guess = Number(input_guess);
 
   // core logic
-  const result = convertToFahrenheit(c);
+  const result = guess === convertToFahrenheit(celsius);
 
   // display for use
+  alert(result);
 
   // log for developers
+  console.log('Input of celsius : ', input_cels, '\n ', `type : ${typeof input_cels}`);
+  console.log('Celsius number value: ', celsius, '\n ', `type : ${typeof celsius}`);
+  console.log('Input of guess: ', input_guess, '\n ', `type : ${typeof input_guess}`);
+  console.log('GHuess number value: ', guess, '\n ', `type : ${typeof guess}`);
+  console.log('Result of your guess: ', result, '\n ', `type : ${typeof result}`);
 }

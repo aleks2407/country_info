@@ -9,6 +9,8 @@
 		<title>Debugging: project, week 1</title>
 		<!-- Leave this here!  It renders the review buttons  -->
 		<script src="./review-buttons/init.js"></script>
+		<script src="./scripts/confirm-ending.js"></script>
+		<script src="./scripts/convert-to-celsius.js"></script>
 		<link rel="stylesheet" href="style.css" />
 		<!--font-family-->
 		<link href="//fonts.googleapis.com/css?family=Bungee Shade&subset=latin" rel="stylesheet" type="text/css" />
@@ -21,7 +23,7 @@
 			<!--first two article for Aleksandra-->
 			<article class="article1">
 				<h2 class="city">Moskow</h2>
-				<p class="instruction">Check if a word or a phrase in "Enter 1" ends on a letter, few letters, a word or few words in "Enter 2"</p>
+				<p class="instruction"><span>Check if a word or a phrase in "Enter 1" ends on a letter, few letters, a word or few words in "Enter 2"</span></p>
                 <div class="js-function">
 				   <label class="arguments" for="arg1">Enter 1</label>
 				   <input type="text" id="arg1" oninput="clearResultHandler()">
@@ -34,7 +36,16 @@
 				   <p id="result"></p>
 			    </div>
 			</article>
-			<article class="article2"></article>
+
+			<article class="article2">
+				<h2 class="city">Yalta</h2>
+				<p class="instruction2"><span>Convert Fahrenheit to Celsius</span></p>
+                <div class="js-function2">
+				   <label class="arguments" for="temp">F°</label>
+				   <input type="number" id="temp" placeholder="Enter F°" oninput="convertToCelsiusHandler()"><span id="is">is</span><span id="result2"></span><span id="cels">C°</span>
+			    </div>
+			</article>
+			
 			<!--Article 3&4 for Oguz-->
 			<article class="article3">
 				<h2>ISTANBUL</h2>

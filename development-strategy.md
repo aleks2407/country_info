@@ -84,7 +84,7 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 - Used `alert` methode to show boolean value of result
 
 
-## 3. First article
+## 3. Confirm ending 
 
 **As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
 
@@ -112,6 +112,35 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 
 ## JS
 - function endsWith with arguments linked to HTML input
+
+## 5. Convert to Celsius
+
+**As a site visitor, you see the second section of the website with a background image of Yalta. There is an input for Fahrenheit temperature that converts automatically to Celsius.**
+
+> assigned to `Aleksandra`, reviewers `Oguz` and `Mamé`
+
+### Repository
+
+1. This user story was developed locally on a brach called `convert-to-celsius`.
+2. The new branch was pushed to the shared repository
+3. A pull request was made to `master` & reviewed by the team
+4. Changes were merged to `master`
+
+### HTML
+
+- article2 element that includes:
+   - header with the name of the city
+   - instruction paragraph
+   - label and input for the argument of the function
+   - span with the result of the function
+
+### CSS
+
+- Style of the article2
+
+## JS
+- function convertToCelsius with argument linked to HTML input
+
  
 ## Finishing Touches
 

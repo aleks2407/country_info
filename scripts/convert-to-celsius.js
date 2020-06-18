@@ -3,8 +3,31 @@
 console.log('-- loading: convertToCelsius');
 
 
-function convertToCelsius() { }
+function convertToCelsius(f) { 
+  return (f-32) * 5/9;
+}
 
+function convertToCelsiusHandler() {
+  debugger;
+
+  // read user input
+  const fTemp = document.getElementById('temp').value;
+  let result;
+  
+  // core logic
+  if (fTemp === "") {
+    result = ""; 
+  } else {
+    result = Math.trunc(convertToCelsius(fTemp));
+  }
+  
+  // display for use
+  document.getElementById('result2').innerHTML = result;
+
+  // log for developers
+  console.log('User first input: ', fTemp, `\n type: ${typeof fTemp}`);
+  console.log('Result for user: ', result, `\n type: ${typeof result}`);
+}
 
 {
   console.log('-- testing: convertToCelsius ');
@@ -39,18 +62,4 @@ function convertToCelsius() { }
   const _6_expect = -40;
   const _6_actual = convertToCelsius(_6_arg);
   console.assert(_6_actual === _6_expect, 'Test 6');
-}
-
-
-function convertToCelsiusHandler() {
-  debugger;
-
-  // read user input
-
-  // core logic
-  const result = convertToCelsius(f);
-
-  // display for use
-
-  // log for developers
 }

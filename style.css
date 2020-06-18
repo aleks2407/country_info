@@ -158,6 +158,63 @@ div.temperature {
 	background-color: cadetblue;
 	color: white;
 }
+
+/* Article 4 */
+
+article.article4 {
+	background-image: url(./img/paris.jpg);
+	background-size:cover;
+	padding: 20px;
+	height: 500px;
+}
+article.article4 h2 {
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 2em;
+}
+article.article4 p {
+	text-align: center;
+	margin-top: 20px;
+	line-height: 1.5em;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+div.longest_word {
+	margin-top: 80px;
+}
+.form-long {
+	display: flex;
+	justify-content: space-evenly;
+}
+.form-long input {
+	border-style: none;
+	opacity: 0.7;
+	width: 300px;
+	height: 30px;
+}
+.form-long input:hover {
+	background-color: lightgreen;
+}
+.article4 .div_button_long {
+	text-align: center;
+}
+.button-long {
+	border-style: none;
+	opacity: 0.7;
+	margin-top: 20px;
+	font-weight: 800;
+	font-family: monospace;
+	border-radius: 20px;
+	width: 150px;
+	height: 30px;
+}
+.button-long:hover {
+	background-color: cadetblue;
+	color: white;
+}
+
 /*ARTICLE 5 and Article 6*/
 .article5 {
 	background-image: url('./img/mame/brown-kangaroo-near-tree-3567163.jpg');

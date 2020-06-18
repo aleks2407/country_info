@@ -112,6 +112,38 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 
 ## JS
 - function endsWith with arguments linked to HTML input
+
+## 4. Find the longest word
+
+**As a site visitor, I want to see the result of my prediction about the longest word in my sentence**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `longest_word`
+
+### HTML
+
+- Added `h2` tags to give a title to the articles
+- Added `p` tag to explain the game or instructions
+- Added `form` tag and `input` tag to take user input
+- Added `button` tag to compare user input and guess
+- With `button` tag user can see the result of his/her guess
+
+### CSS
+
+- Added style features inside the `article` tag with class `article4`
+- Added background image to `article` tag with `background-image: url();`
+- Added `font` features to `h2`, `p` and `button` tag
+- Used `margin`, `display:flex;` and `justify-content: space-evenly;` for nice view
+
+## JS
+
+- Wrote logic for main functions to convert celsius to fahrenheit
+- Used `document.getElementById('').value` for take value of user input
+- Used `alert` method to show boolean value of result
  
 ## Finishing Touches
 

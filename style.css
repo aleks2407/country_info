@@ -30,6 +30,75 @@ article {
 	background-color: aqua;
 	width: 50%;
 	height: 500px;
+
+}
+
+/* Article 1 */
+.article1 {
+	background-image: url(./img/alex/Moscow-Android-Wallpapers.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+h2.city{
+	font-size: 44px;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 4px blue;
+}
+p.instruction {
+	background-color: black;
+	border-radius: 10px;
+	opacity: 0.7;
+	text-align: center;
+	margin-top: 240px;
+	margin-bottom: 20px;
+	font-size: 28px;
+	color: white;
+	text-shadow: 2px 2px 4px red ;
+	font-style: italic;
+}
+
+label.arguments {
+	background-color: black;
+	border-radius: 10px;
+	opacity: 0.7;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px 4px red ;
+}
+
+div.js-function {
+	text-align: center;
+}
+
+#arg1, #arg2 {
+	height: 30px;
+	width: 40%;
+	font-size: 20px;
+	padding: 10px;
+}
+
+button.check {
+	margin-top: 20px;
+	height: 50px;
+	width: 100px;
+	background-color: wheat;
+	border-radius: 30px;
+	font-weight: bold;
+}
+
+p#result {
+	font-size: 30px;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: 2px 2px 4px blue;
+
 }
 /*it will change the things I have made it just for starting point*/
 /*your class en id can be related your article number then we will have zero conflict :)*/

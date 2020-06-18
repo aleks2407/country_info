@@ -19,7 +19,21 @@
 
 		<section>
 			<!--first two article for Aleksandra-->
-			<article class="article1"></article>
+			<article class="article1">
+				<h2 class="city">Moskow</h2>
+				<p class="instruction">Check if a word or a phrase in "Enter 1" ends on a letter, few letters, a word or few words in "Enter 2"</p>
+                <div class="js-function">
+				   <label class="arguments" for="arg1">Enter 1</label>
+				   <input type="text" id="arg1" oninput="clearResultHandler()">
+
+				   <label class="arguments" for="arg2">Enter 2</label>
+				   <input type="text" id="arg2" oninput="clearResultHandler()"> <br>
+
+				   <button class="check" onclick="confirmEndingHandler()">CHECK IT!</button>
+
+				   <p id="result"></p>
+			    </div>
+			</article>
 			<article class="article2"></article>
 			<!--Article 3&4 for Oguz-->
 			<article class="article3">

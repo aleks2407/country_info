@@ -3,10 +3,12 @@
 console.log('-- loading: confirmEnding');
 
 
-function confirmEnding() { }
+function confirmEnding(arg1, arg2) {
+  return arg1.endsWith(arg2);
+}
 
 
-{
+
   console.log('-- testing: confirmEnding ');
   debugger;
 
@@ -58,18 +60,28 @@ function confirmEnding() { }
   const _8_actual = confirmEnding(_8_arg_1, _8_arg_2);
   console.assert(_8_actual === _8_expect, 'Test 8');
 
-}
+
 
 
 function confirmEndingHandler() {
-  debugger;
-
   // read user input
+  const arg1 = document.getElementById('arg1').value;
+  const arg2 = document.getElementById('arg2').value;
 
+  debugger;
   // core logic
-  const result = confirmEnding(str, ending);
+  const result = confirmEnding(arg1, arg2);
 
   // display for use
+  document.getElementById('result').innerHTML = result;
 
   // log for developers
+  console.log('Is "' + arg1 + '" ending with "' + arg2 + '" : ' + result);
+  console.log('User first input: ', arg1, `\n type: ${typeof arg1}`);
+	console.log('User second input: ', arg2, `\n type: ${typeof arg2}`);
+	console.log('Result for user: ', result, `\n type: ${typeof result}`);
+}
+
+function clearResultHandler() {
+  document.getElementById('result').innerHTML = '';
 }

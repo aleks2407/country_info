@@ -1,6 +1,6 @@
 # Development Strategy
 
-> `travel-road`
+> `country_info`
 
 A basic web page aim to learn js, debugging and developed collaboratively using branches. It's not very interesting to look at.
 
@@ -79,17 +79,16 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 - Used `margin`, `display:flex;` and `justify-content: space-evenly;` for nice view
 
 ## JS
+
 - Wrote logic for main functions to convert celsius to fahrenheit
 - Used `document.getElementById('').value` for take value of user input
 - Used `alert` methode to show boolean value of result
 
-
-## 3. Confirm ending 
+## 3. Confirm ending
 
 **As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
 
-> assigned to `Aleksandra`
-> reviewers `Oguz` and `Mamé`
+> assigned to `Aleksandra` reviewers `Oguz` and `Mamé`
 
 ### Repository
 
@@ -101,17 +100,18 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 ### HTML
 
 - article1 element that includes:
-   - header with the name of the city
-   - instruction paragraph
-   - two inputs for the arguments of the function
-   - button to execute the function
-   - paragraph with the result of the function
+  - header with the name of the city
+  - instruction paragraph
+  - two inputs for the arguments of the function
+  - button to execute the function
+  - paragraph with the result of the function
 
 ### CSS
 
 - Style of the article1
 
 ## JS
+
 - function endsWith with arguments linked to HTML input
 
 ## 4. Find the longest word
@@ -150,8 +150,7 @@ This user story was developed on a branch called `longest_word`
 
 **As a site visitor, you see the second section of the website with a background image of Yalta. There is an input for Fahrenheit temperature that converts automatically to Celsius.**
 
-> assigned to `Aleksandra`
-> reviewers `Oguz` and `Mamé`
+> assigned to `Aleksandra` reviewers `Oguz` and `Mamé`
 
 ### Repository
 
@@ -163,35 +162,43 @@ This user story was developed on a branch called `longest_word`
 ### HTML
 
 - article2 element that includes:
-   - header with the name of the city
-   - instruction paragraph
-   - label and input for the argument of the function
-   - span with the result of the function
+  - header with the name of the city
+  - instruction paragraph
+  - label and input for the argument of the function
+  - span with the result of the function
 
 ### CSS
 
 - Style of the article2
 
 ## JS
+
 - function convertToCelsius with argument linked to HTML input
 
 ## 6.1 Finishing Touches
 
-> assigned to `Aleksandra`
-> reviewers `Oguz` and `Mamé`
+> assigned to `Aleksandra` reviewers `Oguz` and `Mamé`
 
 **As a perfectionist, I want everything perfect :)**
+
 - Media Queries, make the website responsive
 - Check for styling errors with a linter & prettify code
 - Validate source code on w3 to check for any last mistakes
 
-## 6.2 Finishing Touches
+## Readme
+
+**As a site visitor, I want to see web site info on GitHub**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `readme`
 
 > assigned to `Mame`  
 > reviewers `Oguz` and `Aleksandra`
 
-**As a perfectionist, I want everything perfect :)**
-- Write final, complete README:
-  - [makeareadme.com](https://www.makeareadme.com/)
-  - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
+## Readme
+
+- complete readme file

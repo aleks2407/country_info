@@ -51,16 +51,20 @@ h2.city{
 	text-shadow: 2px 2px 4px blue;
 }
 p.instruction {
-	background-color: black;
-	border-radius: 10px;
-	opacity: 0.7;
 	text-align: center;
 	margin-top: 240px;
 	margin-bottom: 20px;
-	font-size: 28px;
+	font-size: 20px;
 	color: white;
 	text-shadow: 2px 2px 4px red ;
 	font-style: italic;
+}
+
+.instruction span {
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 10px;
+	padding: 5px 10px;
 }
 
 label.arguments {
@@ -70,6 +74,7 @@ label.arguments {
 	color: white;
 	font-size: 25px;
 	text-shadow: 2px 2px 4px red ;
+	padding: 5px;
 }
 
 div.js-function {
@@ -77,7 +82,7 @@ div.js-function {
 }
 
 #arg1, #arg2 {
-	height: 30px;
+	height: 35px;
 	width: 40%;
 	font-size: 20px;
 	padding: 10px;
@@ -100,6 +105,73 @@ p#result {
 	text-shadow: 2px 2px 4px blue;
 
 }
+
+/* Article 2 */
+.article2 {
+	background-image: url(./img/alex/Yalta.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+
+#temp {
+	height: 35px;
+	width: 13%;
+	font-size: 20px;
+	padding: 10px;
+}
+
+p.instruction2 {
+	text-align: right;
+	margin-right: 100px;
+	margin-top: 180px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px red ;
+	font-style: italic;
+}
+
+div.js-function2 {
+	text-align: right;
+	margin-right: 100px;
+}
+
+input {
+	border-radius: 10px;
+}
+
+.instruction2 span {
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+button.yalta {
+	margin-right: 60px;
+}
+
+#is {
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px red ;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#result2, #cels {
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px red ;
+	background-color: black;
+	opacity: 0.7;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+
 /*it will change the things I have made it just for starting point*/
 /*your class en id can be related your article number then we will have zero conflict :)*/
 

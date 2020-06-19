@@ -2,9 +2,19 @@
 
 console.log('-- loading: findLongestWordLength');
 
+function findLongestWordLength(str) {
 
-function findLongestWordLength() { }
+  let strSplit = str.split(' ');
+  let longestWord = 0;
 
+  for(let i = 0; i < strSplit.length; i++){
+    if(strSplit[i].length > longestWord){
+    longestWord = strSplit[i].length;
+     }
+  }
+
+  return longestWord;
+}
 
 {
   console.log('-- testing: findLongestWordLength ');
@@ -41,12 +51,19 @@ function findLongestWordLengthHandler() {
   debugger;
 
   // read user input
+  const sentence = document.getElementById('input-long1').value;
+  const input_longest = document.getElementById('input-long2').value;
+  const guess_longest = Number(input_longest);
 
   // core logic
-  const result = findLongestWordLength(str);
+  const result_longest = guess_longest === findLongestWordLength(sentence);
 
   // display for use
+  alert(result_longest);
 
   // log for developers
+  console.log('Input of quote or sentence : ', sentence, '\n ', `type : ${typeof sentence}`);
+  console.log('Longest word prediction of the user: ', guess_longest, '\n ', `type : ${typeof guess_longest}`);
+  console.log('Result of the prediction: ', result_longest, '\n ', `type : ${typeof result_longest}`);
 }
 

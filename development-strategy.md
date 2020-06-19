@@ -88,7 +88,8 @@ This user story was developed on a branch called `convert_to_fahrenheit`
 
 **As a site visitor, you see the first section of the website with a background image of Moskow. There are as well two inputs for the text and a button that allows to execute first function.**
 
-> assigned to `Aleksandra`, reviewers `Oguz` and `Mamé`
+> assigned to `Aleksandra`
+> reviewers `Oguz` and `Mamé`
 
 ### Repository
 
@@ -149,7 +150,8 @@ This user story was developed on a branch called `longest_word`
 
 **As a site visitor, you see the second section of the website with a background image of Yalta. There is an input for Fahrenheit temperature that converts automatically to Celsius.**
 
-> assigned to `Aleksandra`, reviewers `Oguz` and `Mamé`
+> assigned to `Aleksandra`
+> reviewers `Oguz` and `Mamé`
 
 ### Repository
 
@@ -173,14 +175,23 @@ This user story was developed on a branch called `longest_word`
 ## JS
 - function convertToCelsius with argument linked to HTML input
 
- 
-## Finishing Touches
+## 6.1 Finishing Touches
+
+> assigned to `Aleksandra`
+> reviewers `Oguz` and `Mamé`
 
 **As a perfectionist, I want everything perfect :)**
+- Media Queries, make the website responsive
+- Check for styling errors with a linter & prettify code
+- Validate source code on w3 to check for any last mistakes
 
+## 6.2 Finishing Touches
+
+> assigned to `Mame`  
+> reviewers `Oguz` and `Aleksandra`
+
+**As a perfectionist, I want everything perfect :)**
 - Write final, complete README:
   - [makeareadme.com](https://www.makeareadme.com/)
   - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
   - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- Check for styling errors with a linter & prettify code
-- Validate source code on w3 to check for any last mistakes

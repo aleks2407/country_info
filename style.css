@@ -33,6 +33,10 @@ article {
 
 }
 
+section h2.displayOff {
+	display: none;
+}
+
 /* Article 1 */
 .article1 {
 	background-image: url(./img/alex/Moscow-Android-Wallpapers.jpg);
@@ -170,10 +174,6 @@ button.yalta {
 	border-radius: 10px;
 	padding: 5px 10px;
 }
-
-
-/*it will change the things I have made it just for starting point*/
-/*your class en id can be related your article number then we will have zero conflict :)*/
 
 /* Article 3 */
 
@@ -335,4 +335,42 @@ div.longest_word {
 	color: #ffffff;
 	font-weight: 800;
 	font-weight: bold;
+}
+
+/* Media Queries */
+
+@media(max-width: 1800px) {
+	#arg1, #arg2 {
+		width: 95%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	p.instruction {
+		text-align: center;
+		margin-top: 80px;
+	}
+	label.arguments {
+		font-size: 20px;
+		padding: 5px;
+	}
+
+	button.check {
+		margin-bottom: 10px;
+	}
+}
+
+@media(max-width: 700px) {
+	h2 {
+		display: none;
+	}
+	p.instruction, p.instruction2 {
+		font-size: 15px;
+	}
+	div.js-function2, p.instruction2 {
+		text-align: center;
+		margin-right: 0px;
+	}	
+	.form-temp input, .form-long input {
+		width: 100px;
+	}
 }

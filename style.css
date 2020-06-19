@@ -33,6 +33,10 @@ article {
 
 }
 
+section h2.displayOff {
+	display: none;
+}
+
 /* Article 1 */
 .article1 {
 	background-image: url(./img/alex/Moscow-Android-Wallpapers.jpg);
